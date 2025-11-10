@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href = "index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img alt="logo will go here" src="Personal Logo.png">
+            <div id="button1"><a href="#startgrid">Home</a></div>
+            <div id="button2"><a href="#icebox">I.C.E.</a></div>
+            <div id="button3"><a href="#bigbox">Big Projects</a></div>
+            <div id="button4"><a href="#wwrbox">WWR</a></div>
+            <div id="button5"><a href="#abtbox">About me</a></div>
+        </nav>
+    </header>
+    <main>
+        <div id="startgrid">
+            <a id="topicepicturebox" href="#icebox"><img id="topicepicture" src="ice.png"></a>
+            <a id="topbigpicturebox" href="#bigbox"><img id="topbigpicture" src="big.png"></a>
+            <a id="topwwrpicturebox" href="#wwrbox"><img id="topwwrpicture" src="wwr.png"></a>
+            <a id="topabtpicturebox" href="#abtbox"><img id="topabtpicture" src="me.png"></a>
+        </div>
+        <div id="miniexplanation">This page is my 'Portal Page' for wdd130 at BYU-I. It connects all of my previous works, and it seves as a general showcase of what I can do. just click on an image to go to that section.</div>
+        <div id = "icebox" class="bigsection">
+            <a href="/portal/ice.html" id="icepiclink"><img id="icepic" class="bigpic" src="ice.png"></a>
+            <div id="icetextbox" class="textbox">
+                <h1 id="icetitle" class="title">ICE PROJECTS.</h1>
+                <p id="iceparagraph" class="projectparagraph">In Class Exercise, or ICE projects. In class, we are often assigned small-scale, short tasks to see how much work we can complete in an hour. Everything from mini-websites to social media posts fall under this category</p>
+            </div>
+        </div>
+        <div id = "bigbox" class="bigsection">
+            <a href="/big" id="bigpiclink"><img id="bigpic" class="bigpic" src="big.png"></a>
+            <div id="bigtextbox" class="textbox">
+                <h1 id="bigtitle" class="title">BIG PROJECTS</h1>
+                <p id="bigparagraph" class="projectparagraph">This category is somewhere in between the ICE project and the WWR. there's no official category of projects like this, it's just whatever ICE projects we get that take a long time out of class to complete, or any multi-day projects that come along. Technically, THIS is one of the 'Big' projects.</p>
+            </div>        
+        </div>
+        <div id = "wwrbox" class="bigsection">
+            <a href="/wwr" id="wwrpiclink"><img id="wwrpic" class="bigpic" src="wwr.png"></a>
+            <div id="wwrtextbox" class="textbox">
+                <h1 id="wwrtitle" class="title">WhiteWater Rafting</h1>
+                <p id="wwrparagraph" class="projectparagraph">Ah, Whitewater Rafting, or WWR. WWR is a longer-term project we undertake over the course of the semester. we make a big project to start, and over time we add to it until we have a rather large project at the end of the semester (I think).</p>  
+            </div>
+        </div>
+        <div id = "abtbox" class="bigsection">
+            <a id="abtpiclink"><img id="abtpic" class="bigpic" src="me.png"></a>
+            <div id="abttextbox" class="textbox">
+                <h1 id="abttitle" class="title">About Me</h1>
+                <p id="abtparagraph" class="projectparagraph">This is the section where I explain... myself! I'm Elliott VanOrman, and as of October 2025, I'm a freshman at BYU-I. My major is Cybersecurity, and I'm taking wdd130, which is why I made this page. Don't bother clicking on the image, there's no link in it.</p>
+            </div>        
+        </div>
+    </main>
+    <footer id ="footgrid">
+        <div id="contactinfobox">
+            <h1 id ="footcontacttitle"> Contacting me:</h1>
+            <div id = "foottext">Unfortunately, I haven't quite gotten the hang of sending emails with CSS yet. I'll update this text if that changes, but if you really need to contact me, send me an email at van25020@byui.edu</div>
+        </div>
+        <div id = "form">
+            <form id = "contactform">
+                <input id="emailbox" type="text" placeholder="Email">
+                <input id="submitbutton" type="submit">
+                <input id="messagebox" type="text" placeholder="Message...">
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

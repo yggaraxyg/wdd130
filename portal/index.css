@@ -1,0 +1,300 @@
+body{
+    background-color: #031d09;
+    margin:0;
+}
+header{
+    width:100%;
+    margin:0;
+}
+nav{
+    text-align: center;
+    vertical-align: middle;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #2D9500;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+nav img{
+    aspect-ratio: inherit;
+    height:75px;
+    margin: auto;
+    align-items:center;
+}
+nav div{
+    background-color:#031d09;
+    margin: 0 10px;
+    color: #ffffff;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    align-items:center;
+}
+
+#startgrid{
+    background-color:#4F5D75;
+    display: grid;
+    width: auto;
+    aspect-ratio: 2.1;
+    grid-template-columns: 1fr 5fr 1fr 5fr 1fr 5fr 1fr 5fr 1fr;
+    align-items: center;
+    margin-top: 75px;
+}
+
+#topicepicturebox{
+    grid-column: 2/3;
+    
+}
+
+#topbigpicturebox{
+    grid-column: 4/5;
+}
+
+#topwwrpicturebox{
+    grid-column: 6/7; 
+}
+
+#topabtpicturebox{
+    grid-column: 8/9;
+}
+
+#startgrid a img{
+    width: 100%;
+    aspect-ratio: 1/2;
+    object-fit: cover;
+}
+
+#miniexplanation{
+    background-color: #b80c09;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bigsection{
+    width:100%;
+    background-color:#4F5D75;
+    aspect-ratio: 3;
+    margin: 0 0 5% 0;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+.bigpic{
+    width: 80%;
+    aspect-ratio:1/1.5;
+    object-fit: cover;
+    margin:20px;
+}
+
+.textbox{
+    display:table-cell;
+    height:100%;
+    vertical-align:middle;
+}
+
+.title{
+    display:flex;
+    margin: 5% 10% 5% 10%;
+    max-height:15%;
+    height:15%;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    align-items:center;
+    justify-content: center;
+}
+
+.projectparagraph{
+    margin: 5% 10%;
+    height: 60%;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ffffff;
+    display:flex;
+    align-items:center;   
+    padding: 15px;
+}
+
+#icepiclink{
+    grid-column: 1;
+    grid-row:1;
+    background-color: #4F5D75;
+}
+
+#icetextbox{
+    grid-column: 2/4;
+    grid-row:1;
+    background-color:#2D9500;
+}
+
+#icetitle{
+    background-color:#b80c09;
+    color:#ffffff;
+}
+
+#iceparagraph{
+    color:#b80c09
+}
+
+#bigpiclink{
+    grid-column: 3;
+    grid-row:1;
+    background-color: #4F5D75;
+}
+
+#bigtextbox{
+    grid-column: 1/3;
+    grid-row:1;
+    background-color:#b80c09;
+}
+
+#bigtitle{
+    background-color:#2D9500;
+    color:#ffffff;
+}
+
+#bigparagraph{
+    color:#2D9500
+}
+
+#wwrpiclink{
+    grid-column: 1;
+    grid-row:1;
+    background-color: #4F5D75;
+}
+
+#wwrtextbox{
+    grid-column: 2/4;
+    grid-row:1;
+    background-color:#2D9500;
+}
+
+#wwrtitle{
+    background-color:#b80c09;
+    color:#ffffff;
+}
+
+#wwrparagraph{
+    color:#b80c09
+}
+
+#abtpiclink{
+    grid-column: 3;
+    grid-row:1;
+    background-color: #4F5D75;
+}
+
+#abttextbox{
+    grid-column: 1/3;
+    grid-row:1;
+    background-color:#b80c09;
+}
+
+#abttitle{
+    background-color:#2D9500;
+    color:#ffffff;
+}
+
+#abtparagraph{
+    color:#2D9500
+}
+
+footer{
+    display:grid;
+    background-color:#4F5D75;
+    grid-template-columns: 3fr 1fr;
+    color: #ffffff;
+}
+
+#contactinfobox{
+    grid-column: 1;
+    margin:0px 20px 15px 20px;
+}
+
+#form{
+    grid-column: 2;
+    background-color: #ffffff;
+}
+
+#contactform{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    align-items:center;
+    vertical-align: middle;
+}
+
+#emailbox{
+    margin:5px;
+    width:90%;
+    grid-column: 1;
+}
+
+#submitbutton{
+    margin:5px;
+    width:90%;
+    grid-column: 2;
+}
+
+#messagebox{
+    margin:5px;
+    grid-column: 1/3;
+    height:90%
+}
+
+.leftpiclink{
+    grid-column: 1;
+    grid-row:1;
+    background-color: #4F5D75;
+}
+
+.lefttextbox{
+    grid-column: 2/4;
+    grid-row:1;
+    background-color:#2D9500;
+}
+
+.lefttitle{
+    background-color:#b80c09;
+    color:#ffffff;
+}
+
+.leftparagraph{
+    color:#b80c09
+}
+
+.rightpiclink{
+    grid-column: 3;
+    grid-row:1;
+    background-color: #4F5D75;
+}
+
+.righttextbox{
+    grid-column: 1/3;
+    grid-row:1;
+    background-color:#b80c09;
+}
+
+.righttitle{
+    background-color:#2D9500;
+    color:#ffffff;
+}
+
+.rightparagraph{
+    color:#2D9500
+}
+
+#margin{
+    margin-top:95px;
+}
+
