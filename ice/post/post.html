@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-color:black;
+        }
+        .post{
+            border-radius:10px;
+            display:grid;
+            background-color:white;
+            width:600px;
+            height:730px;
+            margin: 0 auto;
+            grid-template-columns: 1fr;
+            grid-template-rows: 70px 600px 60px;
+        }
+        .mid img{
+            height:600px;
+            width:600px;
+            object-fit: cover;
+        }
+        .top img{
+            height:40px;
+            width:40px;
+            border-radius:50%;
+            object-fit:cover;
+            margin:15px;
+        }
+        .sec{
+            margin:0;
+            padding:0;
+        }
+        img{
+            margin:0;
+            padding:0;
+        }
+        .top{
+            display:flex;
+            align-items:center;
+            height:70px;    
+            margin:0px;
+            padding:0px;
+            font-family: sans-serif;
+        }
+        .mid{
+            height:600px;
+            margin:0px;
+            margin-top:0px;
+        }
+        .bot{
+            display:flex;
+            height:60px;
+            align-items:center;
+            color:gray;
+        }
+        #username{
+            align-self:center;
+            color:black;
+        }
+        #time{
+            color:gray;
+            margin-left:auto;
+            margin-right:10px;
+        }
+        .dots{
+            margin-right: 10px;
+        }
+        .bookmark{
+            margin-left:20px;
+            color:gray;
+        }
+        .comment{
+            margin-left:20px;
+            color:gray
+        }
+        .heart{
+            margin-left:auto;
+            color:GRAY;
+        }
+        .buf{
+            margin-right:20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="post">
+            <div class="top sec"><img src="held.jpg"><span id="username">CheeseCraver</span><span id="time">20 mins</span><i class="fa-solid fa-ellipsis-vertical dots"></i></div>
+            <div class="mid sec"><img src="Gorgonzola.jpg"></div>
+            <div class="bot sec"><i class="fa-solid fa-bookmark bookmark"></i>17420<i class="fa-solid fa-comment comment"></i>4537<i class="fa-regular fa-heart heart"></i>2389<div class="buf"></div></div>
+        </div>
+    </main>
+</body>
+</html>

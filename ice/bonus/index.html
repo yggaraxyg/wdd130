@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonus</title>
+    <style>
+        body{
+            background-color:#000000;
+            font-family: sans-serif;
+        }
+        #mainsec{
+            width:699px;
+            height:499px;
+            background-color:#ffffff;
+            display:grid;
+            grid-template: 1fr/250px 449px;
+            
+        }
+        #left{
+            width:250px;
+        }
+        #right{
+            display:flexbox;
+            width:449px;
+            text-align: center;
+            justify-content:center;
+        }
+        #xbutton{
+            text-align:right;
+            padding: 8px 8px;
+        }
+        #text1{
+            margin: 0px 30px;
+            color:#666666;
+            font-weight: 600;
+            font-size: 35px;
+
+        }
+        #text2{
+            margin: 10px 30px;
+            color:#666666;
+            font-weight:lighter;
+            font-size:19px;
+        }
+        #box1, #box2{
+            width:360px;
+            height:50px;
+            border-radius: 8px;
+            border: 1px solid #bdbdbd;
+            padding: 0px 15px;
+            margin: 8px 0px;
+            font-size:17px;
+            color:#6b6b6b;
+
+        }
+        #opt{
+            box-sizing:border-box;
+        }
+        #subscribe{
+            width:40px;
+            justify-self:center;
+            background-color: #E39968;
+            color:#ffffff;
+            margin: 0 auto; 
+        }
+    </style>
+</head>
+    <body>
+        <div id="mainsec">
+            <div id ="left">
+                <img src="glasses.png" alt="Pair of cool glasses">
+            </div>
+            <div id ="right">
+                <div id = "xbutton"><img  src="xmark.png" alt="x"></div>
+                <div id = "text1">How consistent is your branding?</div>
+                <div id = "text2">Download our brand touchpoints checklist to see all the places that your brand needs to shine!</div>
+                <input id = "box1" type="text" placeholder="Email">
+                <input id = "box2" type="text" placeholder="Name">
+                <div id = "opt"></div>
+                <div id = "subscribe">SUBSCRIBE</div>
+            </div>
+        </div>
+    </body>
+</html>
