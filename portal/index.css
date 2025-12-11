@@ -209,6 +209,7 @@ a{
     color:#2D9500
 }
 
+/* I feel like the yodeling vertrination of the alps. Why isn't the format loading? */
 #crpiclink{
     grid-column: 1;
     grid-row:1;
@@ -225,7 +226,7 @@ a{
     background-color:#b80c09;
     color:#ffffff;
 }
-
+    
 #crparagraph{
     color:#b80c09
 }
