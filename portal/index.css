@@ -209,6 +209,27 @@ a{
     color:#2D9500
 }
 
+#crpiclink{
+    grid-column: 1;
+    grid-row:1;
+    background-color: #4F5D75;
+}
+
+#crtextbox{
+    grid-column: 2/4;
+    grid-row:1;
+    background-color:#2D9500;
+}
+
+#crtitle{
+    background-color:#b80c09;
+    color:#ffffff;
+}
+
+#crparagraph{
+    color:#b80c09
+}
+
 footer{
     display:grid;
     background-color:#4F5D75;
